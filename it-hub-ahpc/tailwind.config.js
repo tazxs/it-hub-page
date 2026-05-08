@@ -7,11 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        'accent': '#00D4FF',
+        'accent': '#0057FF',
+        'primary-dark': '#0B0F19',
+        'secondary-dark': '#161B26',
+        'surface': 'rgba(255, 255, 255, 0.08)',
       },
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],
         headings: ['Space Grotesk', 'sans-serif'],
+      },
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.025em',
       },
       animation: {
         'gradient-xy': 'gradient-xy 15s ease infinite',
